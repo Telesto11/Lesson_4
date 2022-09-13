@@ -1,0 +1,120 @@
+/* Обнулення */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+body {
+	line-height: 1;
+}
+
+/* Шрифт */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+@font-face{
+	font-family: Larsseit;
+	src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Lato;
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+body{
+	font-family: Larsseit;
+}
+h1{
+font-family: Lato;
+}
+h2{
+font-family: Lato;
+color: blue;
+}
+h3{
+font-family: Roboto;
+}
+.area {
+	color: red;
+}
+.list {
+	color: green;
+}
+
+.title-notation {
+	font-family: Lato;
+	color: rgb(151, 95, 23);
+}
+.antiquity > p {
+color: rgb(65, 180, 61);
+}
+.antiquity{
+	color: blueviolet;
+}
+p.Middle-Ages {
+	color: red;
+}
+.Modern-building > p {
+	color: red;
+}
+.Modern-building{
+	color: aquamarine;
+	font-family: Roboto;
+}
+.top a {
+	color: rgb(226, 141, 43);
+}
+footer{
+	font-family: Lato;
+	color: yellowgreen;
+}
+a{
+	color: rgb(143, 143, 249);
+}
